@@ -12,11 +12,11 @@ USE PD1Movies
 GO
 
 CREATE TABLE Movies(
-	Id				INT				NOT NULL	PRIMARY KEY IDENTITY(1,1),
+	Id			INT			NOT NULL	PRIMARY KEY IDENTITY(1,1),
 	Title			VARCHAR(50)		NOT NULL,
 	ReleaseDate		DATE			NOT NULL,
 	Budget			MONEY			NOT NULL,
-	AvgRating		Numeric(18,2)	NOT NULL,	
-	Imax3D			BIT				NOT NULL,
-	TicketsSold		INT				NOT NULL
+	AvgRating		Numeric(18,2)		NOT NULL,	
+	Imax3D			BIT			NOT NULL,
+	TicketsSold		INT			NOT NULL
 )
